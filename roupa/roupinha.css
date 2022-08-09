@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Sniglet:wght@400;800&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+  --cor-roxa:#5e1c73;
+  --cor-amarela:#F4F719;
+  --cor-de-base:#171717;
+  --cor-preta:#000000;
+  --cor-degrade:#B90CEF;  }
+
+*{
+  margin: 0;
+  padding:0;
+  color: #171717;
+  }
+
+
+#foto{
+  width: 200px;
+  height: 200px;
+  border-radius: 160px;
+  border:white solid 5px;
+  box-shadow: var(--cor-preta) 0px 0px 10px;
+  
+}
+html body{  
+  font-family: sniglet;
+  width: 100%;
+}
+header{
+  overflow: hidden;
+  background:linear-gradient(#B90CEF 0%, #5e236f 100% );
+  box-shadow: black 0px 0px 15px;
+}
+.posicao{
+  margin-right: 4rem;
+  padding: 50px ; 
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.numero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
+.famoso{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+.espaco{
+  margin-right: 50px;
+}
+.junto{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+#nome{
+  font-family: della respira;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color:var(--cor-de-base);
+  margin-bottom: 0.5rem;
+  
+}
+#o-q-faz{
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #F4F719;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+
+}
+#perfil{
+  background-color: #171717;
+  border-radius: 100px;
+  height: 60px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: var(--cor-amarela) solid 5px;
+  box-shadow: var(--cor-preta) 0px 0px 5px;
+  letter-spacing: 3px;
+  margin: 0 0;
+}
+.texto{
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.5rem;
+  padding: 30px 30px;
+}
+#imagem-botao{
+  height: 150px;
+  width: 450px;
+}
+
+#lugar-imagem{
+  display: flex;
+  border-radius: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.animacao :hover{
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+.animacaoo :hover{
+  transform: scale(1.05);
+  transition: all ease-in-out 0.2s;
+}
+.imagens-lado{
+
+  border-radius: 300px;
+  border-radius: 160px;
+  border:white solid 5px;
+  box-shadow: var(--cor-preta) 0px 0px 10px;
+  overflow: hidden; 
+}
+#tamanho-um{
+  height: 170px;
+  width: 170px;
+
+}
+#tamanho-dois{
+  height: 180px;
+  width: 180px;
+
+}
+#linha{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: row;
+ 
+  
+}
+.espaco{
+  margin-left: 3px;
+}
+ #contato{
+   font-family: della respira;
+   font-size: 1.5rem;
+   font-weight: 800;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+
+ }
+ #mudanca{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: red;
+   font-weight: 600;
+ }
+ @media screen and (min-width:760px){
+   body header{
+    margin-bottom: 2rem;
+   }
+   body section{
+    width: 500px;
+   }
+   #linhadois{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: row;
+   }
+   .nomeio{
+     margin: 0 auto;
+   }
+ .espaco{
+   padding: 0 3rem;
+ }
+  
+ }
+
+ @media screen and (min-width:1360px){
+  body header{
+   margin-bottom: 2rem;
+  }
+  body section{
+   width: 1000px;
+  }
+  #linhadois{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: row;
+  }
+  .nomeio{
+    margin: 0 auto;
+  }
+.espaco{
+  padding: 0 3rem;
+}
+ 
+}
+
+ 
